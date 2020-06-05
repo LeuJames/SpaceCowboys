@@ -1,0 +1,68 @@
+Choose hero (Cowboy, gunslinger or sheriff)
+start level 1 (planet 1)
+  - fight level 1 villian (reptile class)
+  -have to defeat (hp = 0 ) villian to go to next level
+  - if hero hp = 0, start game over
+start level 2 (planet 2)
+  - fight level 2 villian (octopus)
+  - have to defeat (hp = 0 ) villian to go to next level
+  - if hero hp = 0, start game over
+start level 3 (planet 3)
+  - fight level 3 villian (Thanos)
+  - have to defeat (hp = 0 ) villian to win game
+  - if hero hp = 0, start game over
+
+
+
+// make a game(while) loop to run your game
+// While Hero HP > 0, play game
+  // Start game function
+      -done
+  // Level 1 function while HP villian > 0; 
+      console write - you have landed on planet 1. you encountered reptile villian. you must battle him now:
+      console write villian stats
+      console write - what do you want to do? Attack options 1. attack1 2. attack2 3. attack3
+      console read - attack1 is only option right now
+      attack function on the villian
+      villan attack function 
+
+      
+  // level 2 function while HP villian > 0; 
+  // level 3 function while HP villian > 0; 
+  // Win game function (exit while loop)
+
+
+  //// Phase 1: Setting up hero ///////
+    Start Game functions
+        //// Typing Name
+        //// selecting heros class
+  
+  ////// Phase 2: Start to fight ////////////
+  While(Hero.hp > 0)
+  {
+      Loop through list of oponents
+        defeat
+      while (Villian_Level_1.hp > 0)
+      { 
+          //// Add game rules///////
+          if (Hero.hp < 0) {lose function} 
+      }
+      while (Villian_Level_2.hp > 0)
+      { 
+          //// Add game rules///////
+          if (Hero.hp < 0) {lose function}
+      }
+      while (Villian_Level_3.hp > 0)
+      {     
+          //// Add game rules///////
+          if (Hero.hp < 0) {lose function}
+      }
+      Win
+      {
+        //// Add reset game function later ///////
+      }
+  }
+  run lose function
+  call game function
+
+  
